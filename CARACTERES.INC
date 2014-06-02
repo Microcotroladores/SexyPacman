@@ -3,22 +3,22 @@ CYC:
 ;-----------COMIDA(00H)--------------------------------------
             MOVLW 40H
 			CALL LCD_CMD
-			MOVLW 00H
+			MOVLW 01H
 			CALL LCD_DATO
 
 			MOVLW 41H
 			CALL LCD_CMD
-			MOVLW 04H
+			MOVLW 02H
 			CALL LCD_DATO
 
 			MOVLW 42H
 			CALL LCD_CMD
-			MOVLW 0EH
+			MOVLW 04H
 			CALL LCD_DATO
 
 			MOVLW 43H
 			CALL LCD_CMD
-			MOVLW 1FH
+			MOVLW 0EH
 			CALL LCD_DATO
 
 			MOVLW 44H
@@ -28,17 +28,17 @@ CYC:
 
 			MOVLW 45H
 			CALL LCD_CMD
-			MOVLW 0EH
+			MOVLW 1FH
 			CALL LCD_DATO
 
 			MOVLW 46H
 			CALL LCD_CMD
-			MOVLW 04H
+			MOVLW 0EH
 			CALL LCD_DATO
 
 			MOVLW 47H
 			CALL LCD_CMD
-			MOVLW 00H
+			MOVLW 04H
 			CALL LCD_DATO
 
 ;---------------PACMAN DERECHA (01H)---------------------
